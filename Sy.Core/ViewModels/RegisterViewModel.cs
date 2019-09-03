@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations; //Require için ekledik..
+using System.ComponentModel.DataAnnotations; //Require için ekledik..nbjgjgjhjhhjhjh
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;

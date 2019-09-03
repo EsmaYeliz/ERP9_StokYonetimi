@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Sy.Core.Abstracts
 {
-    public abstract class BaseEntity<IKey>: IEntity<IKey>
+    public abstract class BaseEntity<TKey>: AuditBase,IEntity<TKey>
     {
         [Key]
-        public IKey Id { get; set; }
+        public TKey Id { get; set; }
 
     }
 }
